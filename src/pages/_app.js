@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
           <Link href={'/blog'}>Blog</Link>
         </nav>
       </header>
-    <Component {...pageProps} />;
+    <Component {...pageProps} />
 
   </>)
 }
